@@ -35,3 +35,6 @@ origin/HEAD就像一个指针,表示默认分支,它指向origin/master,即origi
 git push origin :rtmp   推送一个空分支到远程分支,相当于删除远程分支
 
 git push origin --delete rtmp    删除指定的远程分支
+
+
+git branch -d 本地分支名    删除本地分支命令，注意这条命令不能在要删除的分支下执行
